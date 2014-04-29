@@ -33,7 +33,7 @@ And render it:
 ```php
 <?php
 
-$this->response->body($renderer->render(new TestView));
+return $renderer->render(new TestView));
 ```
 
 ## Templates
